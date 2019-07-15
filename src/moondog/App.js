@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Card from "./Card";
 
-const AppContainer = styled.div`
+const Content = styled.div`
   text-align: center;
 `;
 
@@ -14,10 +14,10 @@ const Title = styled.h1`
 
 function App() {
   return (
-    <AppContainer>
+    <Content>
       <Title>moondog</Title>
       <Card greeting="Your content here" />
-    </AppContainer>
+    </Content>
   );
 }
 
