@@ -7,10 +7,15 @@ const AppContainer = styled.div`
   text-align: center;
 `;
 
+const Title = styled.h1`
+  color: #bab2a8;
+  font-size: 50px;
+`;
+
 function App() {
   return (
     <AppContainer>
-      <h1>Moondog</h1>
+      <Title>moondog</Title>
       <Card greeting="Your content here" />
     </AppContainer>
   );
