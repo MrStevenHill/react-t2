@@ -1,22 +1,8 @@
-import React, { useState } from "react";
-import Hello from "./Hello";
-import NameInput from "./NameInput";
-import "./App.css";
+import React from 'react';
 
-function App() {
-  const [name, setName] = useState("Steve");
+import MoondogApp from './moondog/App';
+//import App3 from './examples/App3';
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <NameInput
-          name={name}
-          onChange={event => setName(event.target.value)}
-        />
-        <Hello name={name} />
-      </header>
-    </div>
-  );
-}
+const App = () => <MoondogApp />;
 
 export default App;
