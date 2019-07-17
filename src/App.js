@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import MoondogApp from './moondog/App';
-//import App3 from './examples/App3';
+import MoondogApp from "./moondog/App";
+// import App1 from "./examples/App1";
 
 const App = () => <MoondogApp />;
 
